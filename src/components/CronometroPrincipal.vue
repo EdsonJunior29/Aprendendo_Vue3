@@ -14,7 +14,7 @@ export default defineComponent ({
    
     name: 'CronometroPrincipal',
     props: {
-        tempoEmSegundos : {
+        tempoEmSegundos: {
             type: Number,
             default : 0
         }
