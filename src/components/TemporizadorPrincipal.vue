@@ -28,6 +28,10 @@ export default defineComponent ({
   
     name: 'TemporizadorPrincipal',
 
+    emits : [
+        'aoTemporizadorFinalizado'
+    ],
+
     components: { 
         CronometroPrincipal
     },
@@ -51,6 +55,8 @@ export default defineComponent ({
         finalizar(){
             this.cronometroRodando = false;
             clearInterval(this.cronometro);
+            this.$emit('aoTemporizadorFinalizado', this.tempoEmSegundos);
+            this.tempoEmSegundos = 0;
         }
     }
 })
