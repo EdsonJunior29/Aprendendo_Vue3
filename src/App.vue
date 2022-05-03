@@ -1,5 +1,11 @@
 <template>
-  <main>
+  <main class="columns is-gapless is-multiline">
+    <div class="columns is-one-quarter">
+      <BarraLateral />
+    </div>
+    <div class="columns is-three-quarter">
+
+    </div>
 
   </main>
 </template>
