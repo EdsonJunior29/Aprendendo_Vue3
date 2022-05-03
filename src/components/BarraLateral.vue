@@ -21,6 +21,7 @@ export default defineComponent ({
         background-color: #0d3b66;
         width: 100%;
         height: 100vh;
+        padding: 1rem;
     }
  /* Responsivo */ 
     @media only screen and (max-width: 768px){
