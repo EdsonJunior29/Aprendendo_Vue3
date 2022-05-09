@@ -6,7 +6,7 @@
     <div class="column is-three-quarter">
       <FormularioPrincipal @aoSalvarTarefa="salvarTarefa"/>
       <div class="lista">
-        <TarefasPrincipais v-for="(tarefa, index) in tarefas" :key="index" :terefa="tarefa"/>
+        <TarefasPrincipais v-for="(tarefa, index) in tarefas" :key="index" :tarefa="tarefa"/>
       </div>
     </div>
 
